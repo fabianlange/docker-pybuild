@@ -39,9 +39,10 @@ As a Docker CLI plugin, you need to:
 # [tool.docker]
 # Dockerfile = """
 #   FROM python:3.11
+#   RUN pip install pipx  # pip doesn't support PEP-723 yet, so we'll use pipx for now
 #   WORKDIR /app
 #   COPY application.py /app
-#   ENTRYPOINT ["python", "/app/application.py"]
+#   ENTRYPOINT ["pipx", "run", "/app/application.py"]
 # """
 # ///
 
