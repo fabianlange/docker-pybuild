@@ -2,6 +2,8 @@
 
 A Docker CLI plugin that allows you to build Docker images directly from Python scripts with embedded Dockerfiles.
 
+**Note:** This is more of a proof-of-concept than a fully developed plugin.
+
 ## Motivation
 
 [PEP-723](https://peps.python.org/pep-0723/) made some waves recently as it allows you to specify the required Python version
