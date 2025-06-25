@@ -9,7 +9,6 @@
 #   RUN pip install pipx
 #   WORKDIR /app
 #   COPY application.py /app
-#   EXPOSE 8080
 #   ENTRYPOINT ["pipx", "run", "/app/application.py"]
 # """
 # ///
