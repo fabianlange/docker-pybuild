@@ -1,4 +1,4 @@
-# docker-pybuild: Including Dockerfiles in Python inline metadata
+# docker-pybuild: Include Dockerfiles in Python inline metadata
 
 A Docker CLI plugin that allows you to build Docker images directly from Python scripts with embedded Dockerfiles.
 
